@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+
+    <style>
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: 20px;
+            padding: 1em;
+
+        }
+
+        h1{
+
+            text-align: center;
+            font-size: 42px;
+            background-image: linear-gradient(to bottom, #8F65EB, #694aac);
+
+            width: 317px;
+            right: 400px;
+
+            border: 16px solid rgb(100, 0, 139);
+
+            padding: 8px 8px 20px 8px;
+
+            margin: 30px auto;
+
+            outline: 20px dotted rgb(255, 252, 47);
+
+        }
+
+        a{
+
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+
+            border: black solid;
+
+            background-color: rgba(255, 255, 0, 0.705);
+
+        }
+
+        a:hover{
+            color:red;
+            font-weight: bold;
+            background-color: rgba(255, 255, 0, 0.705);
+
+        }
+
+        a:active{
+            color: lightslategray;
+
+        }
+
+        h1:hover::after{
+            content: " Roi? Leticia né?";
+        
+        }
+
+    </style>
+
+</head>
+<body>
+    <p>Modelos de caixas Box_Level não continuam na mesma linha e ocupam todo restante da linha, um exemplo de Box_level e a TAG-H1</p>
+
+    <h1>Modelo de caixa Box Level</h1>
+
+    <p>E tembem temos as Inline_level, e praticamente são o oposto das Box_level, continuam na mesma linha e ocupam somente o espaço necessario para o elemento, como por exemplo os <a href="#">links</a>,  viu?</p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML PG2</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica, Audio e Video</h1>
+    <hr>
+    <p><a href="pag01.html" target="_self" rel="prev">Página 1</a> - Página 2</p>
+    <hr>
+    <h1>Castlevania</h1>
+
+    <h2>Imagem</h2>
+
+    <picture>
+        <source width="450" height="300" media="(max-width: 850px)" srcset="artes/Temas/castlevania_450.jpg" type="image/jpg">
+
+        <source media="(max-width: 1200px)" srcset="artes/Temas/castlevania_800.jpg" type="image/jpg">
+        
+        <img src="artes/Temas/castlevania_1280.jpg" alt="Imagem Castlevania">
+    </picture>
+
+    <h2>Video (Hospedagem Local)</h2>
+
+        <video width="450" height="300" src="videos/trailer_castlevania.mp4" poster="https://uauposters.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/7/378720140717-uau-posters-games-castlevania-symphony-of-the-night.jpg" controls width="450" loop muted></video>
+
+    <h2>Video (Hospedagem Externa)</h2>
+
+    <iframe width="450" height="300" src="https://www.youtube.com/embed/fHxeUEFpz7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Audio</h2>
+
+    <audio controls preload="metadata" >
+        <source src="audios/castlevania.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Downloads</h2>
+
+    <ul>
+        <li>Musica - <a href="downloads/audio_castlevania.zip" target="_self" download="audio_castlevania.zip" type="application/zip">Download</a></li>
+        
+        <li>Imagem - <a href="downloads/imagens_castlevania.zip" target="_self" download="imagens_castlevania.zip" type="application/zip">Download</a></li>
+
+        <li>Video - <a href="downloads/video_castlevania.zip" target="_self" download="video_castlevania.zip" type="application/zip">Download</a>
+        </li>
+    </ul>
+    
+
+    
+    <hr>
+</body>
+</html>

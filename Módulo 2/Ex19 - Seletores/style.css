@@ -1,0 +1,50 @@
+@charset "UTF-8"
+
+*{
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+main{
+    background-color: #f8f29d;
+    width:800px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 1px 1px 10px #979DA6;
+}
+
+body{
+    background-color: #e0d421;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1#titulo_pricipal{
+    text-align: center;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+}
+
+h1{
+    color: #191e24;
+}
+
+p{
+    text-align: justify;
+}
+
+.basico{
+    color: #48f205;
+}
+
+.intermediario{
+    color: #F2E205;
+}
+
+.avancado{
+    color: #f20505;
+}
+
